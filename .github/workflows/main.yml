@@ -1,6 +1,6 @@
 name: Schedule jobs
 
-on:
+ on:
    schedule:
      - cron: "0 0 * * *"
     jobs:
