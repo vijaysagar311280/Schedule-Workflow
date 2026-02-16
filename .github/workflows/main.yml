@@ -1,9 +1,9 @@
-name: Schedule Jobs
+name: Schedule jobs
 
 on:
   schedule:
-    - cron: "0 0 * * *"
-    
+    - cron: "*/5 * * * *"   # Runs every 5 minutes (for testing)
+
 jobs:
   run-script:
     runs-on: ubuntu-latest
